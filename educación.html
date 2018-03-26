@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable:no">
+    <title>Educación DF</title>
+  </head>
+  <body>
+    <header>
+     <a> <img src="img/DF.svg" alt="Logo"></a>
+     <h1>Hoja de vida</h1>
+     <h2>Diego Forero C</h2>
+     <h3> 4 de julio de 1973</h3>
+    </header>
+
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="Educación.html">Educación</a></li>
+      <li><a href="Experiencia.html">Experiencia</a></li>
+    </ul>
+
+    <h2>Educación</h2>
+    <table border="1">
+    <thead>
+      <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿culminó?</th>
+      </tr>
+      <tbody>
+        <tr>
+          <td>2016</td>
+          <td>Universidad de Barcelona</td>
+          <td>Barcelona</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2001</td>
+          <td>Universidad San Martín</td>
+          <td>Bogotá</td>
+          <td>Si</td>
+        </tr>
+      </tbody>
+    </tehead>
+  </table>
+    <h3>Agregar estudios</h3>
+    <form name="FormContacto" autocomplete="on">
+      <p>
+  			<strong><label for="año">Año: </label></strong>
+  			  <select name="año">
+  				<option value="1">2016</option>
+  				<option value="1">2015</option>
+  				<option value="1">2014</option>
+          <option value="1">2013</option>
+          <option value="1">2012</option>
+          <option value="1">2011</option>
+  			</select>
+      </p>
+      <p>
+        <strong><label for="institución">Institución:</label></strong>
+        <input type="text" placeholder="Ej:Universidad" required="Por favor llena este campo">
+      </p>
+      <p>
+        <strong><label for="Lugar">Lugar:</label></strong>
+        <textarea name="Lugar" id="" cols="50" rows="3" placeholder="Ej:Ciudad"></textarea>
+      </p>
+      <p>
+        <strong><label for="¿culminó?">¿Culminó?</label></strong>
+        <input type="radio" name="Si">Si
+        <input type="radio" name="No">No
+      </p>
+      <p>
+  			<input type="submit" value="Enviar">
+  		</p>
+    </form>
+    <footer>
+      <p>@Derechos Reservados</p>
+      <ul>
+        <li>Correo electrónico:<a href="mailto:diefor10@gmail.com">diefor10@gmail.com</a></li>
+        <li>Dirección: Calle 99 # 8A-25</li>
+        <li>Teléfono: 3124619046</li>
+      </ul>
+    </footer>
+    </body>
+</html>
